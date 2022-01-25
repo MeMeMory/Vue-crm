@@ -31,6 +31,7 @@
           <i class="material-icons right">send</i>
         </button>
       </div>
+
       <p class="center">
         Уже есть аккаунт?
         <a href="/">Войти!</a>

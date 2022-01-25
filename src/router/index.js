@@ -17,6 +17,12 @@ const routes = [
     component: () => import("../views/Register.vue"),
   },
   {
+    path: "/",
+    name: "Home",
+    meta: { layout: "main" },
+    component: () => import("../views/Home.vue"),
+  },
+  {
     path: "/Categories",
     name: "Categories",
     meta: { layout: "main" },
@@ -35,8 +41,8 @@ const routes = [
     component: () => import("../views/History.vue"),
   },
   {
-    path: "/Planing",
-    name: "Planing",
+    path: "/Planning",
+    name: "Planning",
     meta: { layout: "main" },
     component: () => import("../views/Planning.vue"),
   },
@@ -48,8 +54,8 @@ const routes = [
     component: () => import("../views/Profile.vue"),
   },
   {
-    path: "/Record",
-    name: "Record",
+    path: "/Records",
+    name: "Records",
     meta: { layout: "main" },
     component: () => import("../views/Record.vue"),
   },
